@@ -1,5 +1,5 @@
 import MenuBar from "./components/MenuBar"
-import Footer from ".components/Footer"
+import Footer from "./components/Footer"
 import './App.css'
 
 function App() {
