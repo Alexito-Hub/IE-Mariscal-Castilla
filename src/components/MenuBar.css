@@ -1,0 +1,56 @@
+/* src/MenuBar.css */
+
+/* Estilos para el navbar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar .logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar .menu-icon {
+  display: none; /* Ocultar el ícono del menú en pantallas grandes */
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Estilos para el menú desplegable */
+.navbar .menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: #333;
+}
+
+.navbar .menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Mostrar el menú desplegable en pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .navbar .menu-icon {
+    display: block;
+  }
+
+  .navbar .menu.show {
+    display: flex;
+  }
+}
