@@ -3,7 +3,6 @@
   overflow: hidden;
   background-color: #333;
   display: flex;
-  position: static;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
@@ -19,6 +18,17 @@
   width: 20px;
   height: 20px;
   margin-right: 10px;
+}
+
+.navbar .logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Ajusta el margen entre el logo y el texto */
+}
+
+.navbar .logo-container span {
+  color: white;
+  font-size: 18px;
 }
 
 .navbar .menu-icon {
