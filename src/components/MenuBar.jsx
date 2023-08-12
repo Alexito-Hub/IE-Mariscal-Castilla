@@ -11,6 +11,7 @@ const MenuBar = () => {
   };
 
   return (
+    <>
     <nav className="navbar">
       <div>
         <Logo className="logo" />
@@ -48,6 +49,7 @@ const MenuBar = () => {
         </div>
       </div>
     </nav>
+    </>
   );
 };
 
