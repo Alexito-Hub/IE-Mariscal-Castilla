@@ -10,7 +10,7 @@ function App() {
         <MenuBar />
         <div style={{ padding: "20px" }}>
           <h1>Bienvenido a la Institución Educativa</h1>
-          <h1 style={{ color: red }}>Mariscal Castilla</h1>
+          <h1>Mariscal Castilla</h1>
           <p>Explora nuestros cursos, participa en eventos y contáctanos para más información.</p>
         </div>
         <Footer />
