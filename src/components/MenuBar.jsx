@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Logo from "../assets/logo.svg"
 import "./MenuBar.css"
 
 function MenuBar() {
@@ -13,7 +12,7 @@ function MenuBar() {
       <div>
         <nav className="navbar">
           <div>
-            <Logo className="logo" />
+            <img src="#" alt="MC" className="logo"/>
             <span>IE Mariscal Castilla</span>
           </div>
           <div>
