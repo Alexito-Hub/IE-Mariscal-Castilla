@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { ReactComponent as Logo } from "../assets/logo.svg";
 import "./MenuBar.css";
 
-const MenuBar = () => {
+function MenuBar() {
   const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
@@ -11,11 +11,10 @@ const MenuBar = () => {
   };
 
   return (
-    <>
     <nav className="navbar">
       <div>
         <Logo className="logo" />
-        <span>IE Mariscal Castilla</span>
+        <span>Institución Educativa Mariscal Castilla</span>
       </div>
       <div>
         <a href="#inicio">Inicio</a>
@@ -39,18 +38,17 @@ const MenuBar = () => {
           <a href="#eventos">Eventos</a>
           <a href="#contacto">Contacto</a>
           <a href="#login">
-            <img src={loginIcon} alt="Login" />
+            <img src="#" alt="Login" />
             Login
           </a>
           <a href="#chat">
-            <img src={chatIcon} alt="Chat" />
+            <img src="#" alt="Chat" />
             Chat
           </a>
         </div>
       </div>
     </nav>
-    </>
   );
-};
+}
 
 export default MenuBar;
