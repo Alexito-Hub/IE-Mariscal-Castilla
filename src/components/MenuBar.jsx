@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import logoImage from '../assets/logo.png'
-import "./MenuBar.css"
+import "./css/MenuBar.css"
 
 function MenuBar() {
   const [showMenu, setShowMenu] = useState(false);

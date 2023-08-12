@@ -1,0 +1,35 @@
+/* Estilos para el componente WelcomePage */
+.container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.message {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+}
+
+.login-form p {
+  margin-bottom: 10px;
+}
+
+.login-form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #555;
+}
