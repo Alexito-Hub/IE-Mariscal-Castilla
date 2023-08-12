@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../assets/logo.png'
 import './css/Welcome.css'
 
 function Welcome() {
@@ -8,7 +7,7 @@ function Welcome() {
     <>
     <div className="welcome-container">
       <div className="logo-container">
-        <img src={logo} alt="Logo de Mariscal Castilla" className="logo" />
+        <img src="#" alt="Logo de Mariscal Castilla" className="logo" />
         <h1>Mariscal Castilla</h1>
       </div>
       <div className="welcome-message">
