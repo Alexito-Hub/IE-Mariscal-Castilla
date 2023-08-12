@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
+import logoImage from '../assets/logo.png'
 import "./MenuBar.css"
 
 function MenuBar() {
@@ -12,7 +13,7 @@ function MenuBar() {
       <div>
         <nav className="navbar">
           <div>
-            <img src="./assets/logo.png" alt="" className="logo"/>
+            <img src={logoImage} alt="Logo" className="logo"/>
             <span>Mariscal Castilla</span>
           </div>
           <div>
