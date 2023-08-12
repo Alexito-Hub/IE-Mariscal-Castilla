@@ -1,0 +1,63 @@
+import React, { useState } from 'react';
+import axios from 'axios';
+
+function Login() {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+
+    try {
+      // Realizar la solicitud POST para iniciar sesión
+      const response = await axios.post('/api/login', {
+        username,
+        password,
+      });
+
+      // Manejar la respuesta del inicio de sesión exitoso aquí
+      console.log('Inicio de sesión exitoso:', response.data);
+
+      // Reiniciar el formulario
+      setUsername('');
+      setPassword('');
+      setError('');
+    } catch (error) {
+      // Manejar el error de inicio de sesión aquí
+      setError('Usuario o contraseña incorrectos');
+    }
+  };
+
+  return (
+    <div>
+      <h2>Iniciar sesión</h2>
+      {error && <p style={{ color: 'red' }}>{error}</p>}
+      <form onSubmit={handleLogin}>
+        <div>
+          <label htmlFor="username">Usuario:</label>
+          <input
+            type="text"
+            id="username"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+            required
+          />
+        </div>
+        <div>
+          <label htmlFor="password">Contraseña:</label>
+          <input
+            type="password"
+            id="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+          />
+        </div>
+        <button type="submit">Iniciar sesión</button>
+      </form>
+    </div>
+  );
+}
+
+export default Login;
