@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png'; // Asegúrate de tener la ruta correcta a tu logo
+import logo from '../assets/logo.png'
+import './src/Welcome'
 
 function Welcome() {
     return (
