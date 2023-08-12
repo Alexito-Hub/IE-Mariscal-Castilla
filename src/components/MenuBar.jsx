@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Logo from "../assets/logo.svg";
-import "./MenuBar.css";
+import Logo from "../assets/logo.svg"
+import "./MenuBar.css"
 
 function MenuBar() {
   const [showMenu, setShowMenu] = useState(false);
