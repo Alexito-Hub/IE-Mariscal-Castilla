@@ -12,7 +12,7 @@ function MenuBar() {
       <div>
         <nav className="navbar">
           <div>
-            <img src="#" alt="!" className="logo"/>
+            <img src="./assets/logo.png" alt="!" className="logo"/>
             <span>Mariscal Castilla</span>
           </div>
           <div>
