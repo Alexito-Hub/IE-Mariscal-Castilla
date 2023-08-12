@@ -1,6 +1,5 @@
-import { useState } from 'react'
-import './App.css'
-
+// src/App.js
+import React from "react";
 import MenuBar from "./components/MenuBar";
 
 function App() {
@@ -8,8 +7,8 @@ function App() {
     <div>
       <MenuBar />
       <div style={{ padding: "20px" }}>
-        <h1>Contenido de la página</h1>
-        <p>Aquí puedes poner el contenido principal de tu página.</p>
+        <h1>Bienvenido a la Institución Educativa</h1>
+        <p>Explora nuestros cursos, participa en eventos y contáctanos para más información.</p>
       </div>
     </div>
   );
