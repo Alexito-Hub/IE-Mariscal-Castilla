@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png'
-import './src/Welcome.css'
+import './css/Welcome.css'
 
 function Welcome() {
     return (
