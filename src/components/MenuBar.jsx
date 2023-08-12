@@ -1,5 +1,6 @@
 // src/MenuBar.jsx
 import React, { useState } from "react";
+import { ReactComponent as Logo } from "../assets/logo.svg";
 import "./MenuBar.css";
 
 const MenuBar = () => {
@@ -12,8 +13,8 @@ const MenuBar = () => {
   return (
     <nav className="navbar">
       <div>
-        <img src="ruta_al_logo.png" alt="Logo" className="logo" />
-        <span>Name</span>
+        <Logo className="logo" />
+        <span>Mariscal Castilla</span>
       </div>
       <div>
         <a href="#inicio">Inicio</a>
