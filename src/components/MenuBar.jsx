@@ -3,7 +3,7 @@ import Logo from "../assets/logo.svg"
 import "./MenuBar.css"
 
 function MenuBar() {
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(true);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
