@@ -19,7 +19,7 @@
 
 h1 {
   margin: 0;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .welcome-message {
@@ -32,7 +32,7 @@ h1 {
 }
 
 .welcome-message p {
-  color: #333;
+  color: #979A9A;
   margin-bottom: 20px;
 }
 
