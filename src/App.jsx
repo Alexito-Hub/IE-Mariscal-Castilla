@@ -1,4 +1,5 @@
 import MenuBar from "./components/MenuBar"
+import Footer from ".components/Footer"
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           <h2>Mariscal Castilla</h2>
           <p>Explora nuestros cursos, participa en eventos y contáctanos para más información.</p>
         </div>
+        <Footer />
       </div>
     </>
   )

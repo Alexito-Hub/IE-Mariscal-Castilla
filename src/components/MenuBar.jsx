@@ -18,9 +18,7 @@ function MenuBar() {
           </div>
           <div>
             <a href="inicio">Inicio</a>
-            <a href="cursos">Cursos</a>
             <a href="eventos">Eventos</a>
-            <a href="contacto">Contacto</a>
             <a href="login">Login</a>
             <a href="chat">Chat</a>
             <span className="menu-icon" onClick={toggleMenu}>
