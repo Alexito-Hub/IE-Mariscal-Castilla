@@ -15,15 +15,11 @@ function Welcome() {
                 <h2>Bienvenido al sitio web de la Institución Educativa Mariscal Castilla</h2>
                 <p>Por favor, inicia sesión para acceder al sitio.</p>
                 
-                <Link to="/login">
-                    <button>Iniciar sesión</button>
-                </Link>
+                <button>Iniciar sesión</button>
                 
                 <p>O</p>
                 
-                <Link to="/inicio">
-                    <button>Continuar sin iniciar sesión</button>
-                </Link>
+                <button>Continuar sin iniciar sesión</button>
                 
             </div>
         </div>
