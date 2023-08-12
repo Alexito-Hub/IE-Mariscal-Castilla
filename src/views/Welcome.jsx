@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png'; // Asegúrate de tener la ruta correcta a tu logo
 
 function Welcome() {
-  return (
+    return (
+    <>
     <div className="welcome-container">
       <div className="logo-container">
         <img src={logo} alt="Logo de Mariscal Castilla" className="logo" />
@@ -21,6 +22,7 @@ function Welcome() {
         </Link>
       </div>
     </div>
+    </>
   );
 }
 
