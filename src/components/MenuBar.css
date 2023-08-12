@@ -3,6 +3,7 @@
   overflow: hidden;
   background-color: #333;
   display: flex;
+  position: static;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
